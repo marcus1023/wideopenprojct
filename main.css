@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow');
+
+body{
+font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+}
+.top-nav{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height:70px;
+}
+.top-nav img{
+  margin-left: 20px;
+  width: 40px;
+}
+.top-nav .chat-icon{
+  width: 50px;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  opacity: 1;
+}
+.top-nav .chat-icon:hover{
+  opacity: .8;
+}
+#ham-menu-top{
+  margin-right: 20px;
+  width: 25px;
+}
+.top-statement{
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+.top-statement-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+.top-statement-text h1{
+  font-weight: 100;
+  font-size: 4rem;
+  color: white;
+}
+.top-statement-text h2{
+    margin-top: 20px;
+  font-size: 2rem;
+  color: white;
+}
+.top-statement-text-btm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ position:relative;
+}
+.top-statement-text-btm h3{
+font-size: 1.4rem;
+color: white;
+font-weight: bold;
+text-transform: capitalize;
+}
+.white-bar{
+  width: 10%;
+  height: 8px;
+  background: white;
+  margin-top:2px;
+  margin-right: 22px;
+  margin-left: 15px;
+
+}
+.oj-span{
+  color: #ff803a;
+}
+.gr-span{
+  color: #bdd436;
+}
+.wbr{
+  width: 10%;
+  height: 8px;
+  background: white;
+  margin-top:2px;
+  margin-left: 22px;
+}
+.cta-btn {
+    background: #bdd436 !important;
+    border: 2px solid #bdd436 !important;
+    color: #FFF !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    padding: 11px 36px !important;
+    border-radius: 25px !important;
+    width: 90%;
+}
+.expand-flex{
+  height: 50%;
+}
+.importiant-content-text-spanone{
+  padding: 25px;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.importiant-content-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f0f0f0;
+  color: rgba(0,0,0, .5);
+  font-size: 2rem;
+}
+.importiant-content-text-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  color: rgba(0,0,0, .5);
+  font-size: 2rem;
+}
+.importiant-content-text img{
+  padding: 20px;
+}
+.how-it-works-top{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+.works-span{
+  font-weight: bold;
+}
+.pad-tiny{
+  padding: 10px;
+}
+.pad-sm{
+  padding: 20px;
+}
+.pad-md{
+  padding: 40px;
+}
+.pad-bg{
+  padding: 60px;
+}
+.pad-lg{
+  padding: 80px;
+}
+.pad-mas{
+  padding: 100px;
+}
+.txt-al{
+  text-align: center;
+}
+.line-h{
+    line-height: 2.5rem;
+}
+.mid-section-text{
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+.mid-section-text-small{
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+.little-arrow{
+  margin-top: -40px;
+}
+.how-can-we-help-section{
+  background-color: #f0f0f0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how-can-we-help-span{
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  color:rgba(0,0,0, .5);
+  padding: 40px 20px 10px 20px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.help-discription{
+    color: #40666d;
+    font-size: 1.8rem;
+    margin: 5px 0 70px;
+    padding: 0px 20px  40px 20px;
+}
+.help-section-boxes-one{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+.help-section-box{
+  margin: 10px;
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  background: white;
+  color: #40666d;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.help-section-box-span{
+  font-size: 1.2rem;
+  color: #40666d;
+  opacity: .7;
+}
